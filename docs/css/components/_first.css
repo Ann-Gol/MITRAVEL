@@ -12,11 +12,12 @@ color: var(--white-color);
 padding-top: 220px;
 position: relative;
 height: 100%;
+/* position: fixed; */
 }
 
 .first__link{
 background-color: rgba(28, 46, 61, 0.4);
-padding: 15px 30px;
+padding: 18px 30px 15px 30px;
 border-radius: 100px;
 font-family: SFProDisplay;
 font-size: 11px;
@@ -43,15 +44,8 @@ max-width: 30%;
 margin-bottom: 58px;
 }
 
-.first__btn{    
-font-size: 12px;
-font-weight: 800;
-line-height: 14px;
-letter-spacing: 2.18182px;
-padding: 33px 80px;
+.first__btn{
 background-color: var(--akcent-color);
-border-radius: 8px;
-text-transform: uppercase;
 color: var(--white-color);
 position: relative;
 z-index: 5;
@@ -141,6 +135,7 @@ line-height: 75px;
 @media (max-height: 780px){
 .search-form{
 height: 80px;
+border-bottom: 1px solid #DFDFDF;
 }
 .main__slider-text{
 height: 80px;
