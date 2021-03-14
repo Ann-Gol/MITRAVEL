@@ -8,6 +8,10 @@ box-sizing: border-box;
 box-sizing: inherit;
 }
 
+*, a:focus {
+    outline: none !important;
+}
+
 body {
 font-family: 'SFProDisplay', sans-serif;
 margin: 0;

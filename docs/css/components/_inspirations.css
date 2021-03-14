@@ -1,0 +1,130 @@
+.inspirations {
+padding-top: 95px;
+padding-bottom: 140px;
+}
+.grid {
+display: grid;
+}
+
+.inst-head{
+margin-bottom: 30px;
+}
+
+.inspirations-descr {
+margin: 0 auto;
+text-align: center;
+max-width: 635px;
+font-family: SFCompactText;
+font-size: 16px;
+line-height: 24px;
+color: #788692;
+margin-bottom: 92px;
+}
+
+.inspirations__list {
+grid-gap: 32px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-rows: minmax(500px,auto);
+}
+
+.inspirations__item {
+background-color: #000;
+border-radius: 8px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: var(--white-color);
+position: relative;
+}
+
+.inspirations__item::after{
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 65%;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+}
+
+.insp__text {
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: 100;
+padding: 0 40px;
+padding-bottom: 47px;
+}
+
+.insp__category {
+font-size: 10px;
+letter-spacing: 1.1px;
+font-weight: 800;
+display: inline-block;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.insp__title {
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 18px;
+line-height: 40px;
+}
+
+.insp__people {
+display: flex;    
+}
+.insp__people-item {
+overflow: hidden;
+border-radius: 100%;
+border: 4px solid var(--white-color);
+width: 48px;
+height: 48px; 
+}
+
+.insp__people-item:not(:first-child){
+margin-left: -15px;
+}
+
+.insp__item-big{
+grid-column-end: span 2;
+}
+
+.insp__item-big-hase{
+height: 700px;
+}
+
+.insp__item-1{
+background-image: url('../../img/grid/insp1.jpg');
+}
+.insp__item-2{
+background-image: url('../../img/grid/insp2.jpg');
+}
+.insp__item-3{
+background-image: url('../../img/grid/insp3.jpg');
+}
+.insp__item-4{
+background-image: url('../../img/grid/insp4.jpg');
+}
+.insp__item-5{
+background-image: url('../../img/grid/insp5.jpg');
+}
+.insp__item-6{
+background-image: url('../../img/grid/insp6.jpg');
+}
+.insp__item-7{
+background-image: url('../../img/grid/insp7.jpg');
+}
+
+.insp__play{
+background-image: url(../../img/grid/Frame1.svg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 64px;
+height: 64px;
+position: absolute;
+left: 40px;
+top: 40px;
+}
