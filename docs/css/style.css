@@ -4,7 +4,10 @@
 @import '_vendor.css';
 @import '_global.css';
 @import '_overall.css';
+
+/**********components**********/
 @import 'components/_header.css';
 @import 'components/_first.css';
 @import 'components/_become.css';
 @import 'components/_featured.css';
+@import 'components/_slider.css';
