@@ -1,4 +1,4 @@
-.slider__container{
+.slider-container{
 overflow-x: hidden;
 width: 100%;
 margin-top: 50px;
@@ -15,7 +15,7 @@ opacity: 1;
 transition: opacity 0.3s;
 }
 
-.swiper-slide {
+.slider-container .swiper-slide {
 position: relative;
 background: #E3E3E3;
 border-radius: 8px;
@@ -31,7 +31,7 @@ justify-content: flex-end;
 overflow: hidden;   
 }
 
-.swiper-slide::after{
+.slider-container .swiper-slide::after{
 content: '';
 position: absolute;
 left: 0;
@@ -59,16 +59,16 @@ color: #788692;
 margin-top: 26px;
 }
 
-.slide-1 {
+.swiper-slide.slide-1 {
 background-image: url(../../img/videos-slider1.jpg);
 }
-.slide-2 {
+.swiper-slide.slide-2 {
 background-image: url(../../img/videos-slider2.jpg);
 }
-.slide-3 {
+.swiper-slide.slide-3 {
 background-image: url(../../img/videos-slider3.jpg);
 }
-.slide-4 {
+.swiper-slide.slide-4 {
 background-image: url(../../img/videos-slider1.jpg);    
 }
 

@@ -35,6 +35,12 @@ font-weight: 500;
 color: #959EA6;
 display: inline-block;
 margin-bottom: 12px;
+transition: color .3s;
+}
+
+.footer__link:hover {
+color: #5b6d7c;    
+transition: color .3s;
 }
 
 .subs__form {
@@ -52,11 +58,23 @@ background-position: calc(100% - 31px) center;
 background-repeat: no-repeat;
 }
 
-.subs-form {
+.subs__form-btn{
 width: 100%;
 background-color: var(--Neptune-color);
 height: 64px;
+padding: 25px 120px;
 margin-top: 15px;
+font-size: 12px;
+font-weight: 800;
+letter-spacing: 2.18182px;
+text-transform: uppercase;
+color: var(--white-color);
+transition: background-color .3s;
+}
+
+.subs__form-btn:hover {
+background-color: var(--Neptune-hover-color);    
+transition: background-color .3s;
 }
 
 .footer__bottom {
